@@ -1,0 +1,140 @@
+.main-div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 48, 253, 0.336);
+}
+
+.countdownDiv {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.txt1 {
+    font-family: Montserrat-Black;
+    font-size: 50px;
+    color: #000000;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.txt2 {
+    font-family: Montserrat-Light;
+    font-size: 30px;
+    color: #000000;
+    line-height: 1.2;
+}
+
+.txt3 {
+    font-family: Montserrat-Bold;
+    font-size: 36px;
+    color: #000000;
+    line-height: 1;
+}
+
+.txt4 {
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    color: #000000;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.flex-w {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.how-countdown {
+    background-color: #fff;
+    border-radius: 18px;
+    margin: 0 18px 25px;
+}
+
+.size2 {
+    width: 90px;
+    height: 90px;
+}
+
+.flex-col-c-m {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    justify-items: end;
+    margin-top: 230px;
+}
+
+.how-btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+.size3 {
+    min-width: 280px;
+    max-width: 100%;
+    min-height: 60px;
+}
+
+.s1-txt2 {
+    font-family: Montserrat-Bold;
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.2;
+}
+
+.flex-c-m {
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.s1-txt3 {
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    color: #000000;
+    line-height: 1.4;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.days {
+    font-family: Montserrat-Bold;
+    font-size: 36px;
+    color: #000000;
+    line-height: 1;
+}
+
+.hours {
+    font-family: Montserrat-Bold;
+    font-size: 36px;
+    color: #000000;
+    line-height: 1;
+}
+
+.minutes {
+    font-family: Montserrat-Bold;
+    font-size: 36px;
+    color: #000000;
+    line-height: 1;
+}
+
+.seconds {
+    font-family: Montserrat-Bold;
+    font-size: 36px;
+    color: #000000;
+    line-height: 1;
+}
