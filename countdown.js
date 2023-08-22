@@ -6,7 +6,7 @@ let seconds = document.getElementById(`seconds`);
 
 function countdown() {
     //Time function
-    const eventTime = new Date(`01 SEP 2023 10:00:00`);
+    const eventTime = new Date(`23 AUG 2023 10:00:00`);
     const currentTime = new Date();
     const totalTime = eventTime - currentTime;
 
@@ -27,6 +27,13 @@ function countdown() {
     hours.innerHTML = hoursRemain;
     minutes.innerHTML = minutesRemain;
     seconds.innerHTML = secondsRemain;
+
+    if (daysRemain <= 0 && hoursRemain <= 0 && minutesRemain <= 0 && secondsRemain <= 0) {
+        days.innerHTML = 0;
+        hours.innerHTML = 0;
+        minutes.innerHTML = 0;
+        seconds.innerHTML = 0;
+    }
 }
 countdown();
 setInterval(countdown, 1000);
